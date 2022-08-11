@@ -1,5 +1,5 @@
 #include"rpcprovider.h"
-#include"mprpcapplication.h"
+#include"myrpcapplication.h"
 #include"rpcheader.pb.h"
 #include"zookeeperutil.h"
 
@@ -44,8 +44,8 @@ void RpcProvider::NotifyService(google::protobuf::Service *service)
 void RpcProvider::Run()
 {
     //获取启动tcpserver相关的参数
-    std::string ip=MprpcApplication::GetInstance().GetConfig().Load("rpcserverip");
-    uint16_t port=atoi(MprpcApplication::GetInstance().GetConfig().Load("rpcserverport").c_str());
+    std::string ip=myrpcApplication::GetInstance().GetConfig().Load("rpcserverip");
+    uint16_t port=atoi(myrpcApplication::GetInstance().GetConfig().Load("rpcserverport").c_str());
     muduo::net::InetAddress address(ip,port);
 
     //创建TcpServer对象
@@ -125,7 +125,7 @@ void RpcProvider::OnMessge(const muduo::net::TcpConnectionPtr &conn,
     //std::cout<<"已读取头信息"<<std::endl;
     //根据header_size读取数据头的原始字符流，反序列化数据，得到rpc的详细请求数据
     std::string rpc_header_str=recv_buf.substr(4,header_size);//substr从4开始读读取header_size个字节的数据
-    mprpc::RpcHeader rpcHeader;
+    myrpc::RpcHeader rpcHeader;
     std::string service_name;//用于存储反序列化成功的服务名字
     std::string method_name;//用于存储反序列化成功的服务方法
     uint32_t args_size;//用于存储反序列化成功的参数个数

@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": false,
-      "cwd": "/home/huhao/C++Projects/MPRPC-master/src/include",
-      "program": "/home/huhao/C++Projects/MPRPC-master/src/include/build/Debug/outDebug",
+      "cwd": "/home/huhao/C++Projects/myrpc-master/src/include",
+      "program": "/home/huhao/C++Projects/myrpc-master/src/include/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

@@ -1,6 +1,6 @@
 #设置cmake的最低版本和项目名称
 cmake_minimum_required(VERSION 3.0)
-project(mprpc)
+project(myrpc)
 
 #生成debug版本，可以进行gdb调试
 set(CMAKE_BUILD_TYPE "Debug")
@@ -18,8 +18,8 @@ include_directories(${PROJECT_SOURCE_DIR}/example)
 link_directories(${PROJECT_SOURCE_DIR}/lib)
 
 #在子目录下寻找makefile文件
-#src包含了mprpc框架的所有代码
+#src包含了myrpc框架的所有代码
 add_subdirectory(src)
 
-#example包含了mprpc框架使用的示例代码
+#example包含了myrpc框架使用的示例代码
 add_subdirectory(example)

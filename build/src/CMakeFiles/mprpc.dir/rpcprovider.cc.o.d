@@ -1,7 +1,7 @@
-src/CMakeFiles/mprpc.dir/rpcprovider.cc.o: \
- /home/huhao/project/MPRPC-master/src/rpcprovider.cc \
+src/CMakeFiles/myrpc.dir/rpcprovider.cc.o: \
+ /home/huhao/project/myrpc-master/src/rpcprovider.cc \
  /usr/include/stdc-predef.h \
- /home/huhao/project/MPRPC-master/src/include/rpcprovider.h \
+ /home/huhao/project/myrpc-master/src/include/rpcprovider.h \
  /usr/local/include/google/protobuf/service.h /usr/include/c++/7/string \
  /usr/include/x86_64-linux-gnu/c++/7/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/7/bits/os_defines.h \
@@ -285,16 +285,16 @@ src/CMakeFiles/mprpc.dir/rpcprovider.cc.o: \
  /usr/include/c++/7/bits/std_mutex.h \
  /usr/local/include/google/protobuf/stubs/once.h \
  /usr/local/include/google/protobuf/port.h \
- /home/huhao/project/MPRPC-master/src/include/logger.h \
- /home/huhao/project/MPRPC-master/src/include/lockqueue.h \
+ /home/huhao/project/myrpc-master/src/include/logger.h \
+ /home/huhao/project/myrpc-master/src/include/lockqueue.h \
  /usr/include/c++/7/queue /usr/include/c++/7/deque \
  /usr/include/c++/7/bits/stl_deque.h /usr/include/c++/7/bits/deque.tcc \
  /usr/include/c++/7/bits/stl_queue.h /usr/include/c++/7/thread \
  /usr/include/c++/7/condition_variable \
- /home/huhao/project/MPRPC-master/src/include/mprpcapplication.h \
- /home/huhao/project/MPRPC-master/src/include/mprpcconfig.h \
- /home/huhao/project/MPRPC-master/src/include/mprpccontroller.h \
- /home/huhao/project/MPRPC-master/src/include/mprpcchannel.h \
+ /home/huhao/project/myrpc-master/src/include/myrpcapplication.h \
+ /home/huhao/project/myrpc-master/src/include/myrpcconfig.h \
+ /home/huhao/project/myrpc-master/src/include/myrpccontroller.h \
+ /home/huhao/project/myrpc-master/src/include/myrpcchannel.h \
  /usr/local/include/google/protobuf/message.h \
  /usr/local/include/google/protobuf/stubs/casts.h \
  /usr/local/include/google/protobuf/arena.h \
@@ -334,10 +334,10 @@ src/CMakeFiles/mprpc.dir/rpcprovider.cc.o: \
  /usr/local/include/google/protobuf/has_bits.h \
  /usr/local/include/google/protobuf/map.h \
  /usr/local/include/google/protobuf/map_type_handler.h \
- /home/huhao/project/MPRPC-master/src/include/rpcheader.pb.h \
+ /home/huhao/project/myrpc-master/src/include/rpcheader.pb.h \
  /usr/local/include/google/protobuf/extension_set.h \
  /usr/include/c++/7/cassert \
- /home/huhao/project/MPRPC-master/src/include/zookeeperutil.h \
+ /home/huhao/project/myrpc-master/src/include/zookeeperutil.h \
  /usr/include/semaphore.h /usr/include/x86_64-linux-gnu/bits/semaphore.h \
  /usr/local/include/zookeeper/zookeeper.h \
  /usr/include/x86_64-linux-gnu/sys/time.h \

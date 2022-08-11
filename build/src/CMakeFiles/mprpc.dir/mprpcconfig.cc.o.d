@@ -1,7 +1,7 @@
-src/CMakeFiles/mprpc.dir/mprpcconfig.cc.o: \
- /home/huhao/project/MPRPC-master/src/mprpcconfig.cc \
+src/CMakeFiles/myrpc.dir/myrpcconfig.cc.o: \
+ /home/huhao/project/myrpc-master/src/myrpcconfig.cc \
  /usr/include/stdc-predef.h \
- /home/huhao/project/MPRPC-master/src/include/mprpcconfig.h \
+ /home/huhao/project/myrpc-master/src/include/myrpcconfig.h \
  /usr/include/c++/7/unordered_map /usr/include/c++/7/utility \
  /usr/include/x86_64-linux-gnu/c++/7/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/7/bits/os_defines.h \

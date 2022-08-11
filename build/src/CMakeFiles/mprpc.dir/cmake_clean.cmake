@@ -1,25 +1,25 @@
 file(REMOVE_RECURSE
-  "/home/huhao/project/MPRPC-master/lib/libmprpc.a"
-  "/home/huhao/project/MPRPC-master/lib/libmprpc.pdb"
-  "CMakeFiles/mprpc.dir/logger.cc.o"
-  "CMakeFiles/mprpc.dir/logger.cc.o.d"
-  "CMakeFiles/mprpc.dir/mprpcapplication.cc.o"
-  "CMakeFiles/mprpc.dir/mprpcapplication.cc.o.d"
-  "CMakeFiles/mprpc.dir/mprpcchannel.cc.o"
-  "CMakeFiles/mprpc.dir/mprpcchannel.cc.o.d"
-  "CMakeFiles/mprpc.dir/mprpcconfig.cc.o"
-  "CMakeFiles/mprpc.dir/mprpcconfig.cc.o.d"
-  "CMakeFiles/mprpc.dir/mprpccontroller.cc.o"
-  "CMakeFiles/mprpc.dir/mprpccontroller.cc.o.d"
-  "CMakeFiles/mprpc.dir/rpcheader.pb.cc.o"
-  "CMakeFiles/mprpc.dir/rpcheader.pb.cc.o.d"
-  "CMakeFiles/mprpc.dir/rpcprovider.cc.o"
-  "CMakeFiles/mprpc.dir/rpcprovider.cc.o.d"
-  "CMakeFiles/mprpc.dir/zookeeperutil.cc.o"
-  "CMakeFiles/mprpc.dir/zookeeperutil.cc.o.d"
+  "/home/huhao/project/myrpc-master/lib/libmyrpc.a"
+  "/home/huhao/project/myrpc-master/lib/libmyrpc.pdb"
+  "CMakeFiles/myrpc.dir/logger.cc.o"
+  "CMakeFiles/myrpc.dir/logger.cc.o.d"
+  "CMakeFiles/myrpc.dir/myrpcapplication.cc.o"
+  "CMakeFiles/myrpc.dir/myrpcapplication.cc.o.d"
+  "CMakeFiles/myrpc.dir/myrpcchannel.cc.o"
+  "CMakeFiles/myrpc.dir/myrpcchannel.cc.o.d"
+  "CMakeFiles/myrpc.dir/myrpcconfig.cc.o"
+  "CMakeFiles/myrpc.dir/myrpcconfig.cc.o.d"
+  "CMakeFiles/myrpc.dir/myrpccontroller.cc.o"
+  "CMakeFiles/myrpc.dir/myrpccontroller.cc.o.d"
+  "CMakeFiles/myrpc.dir/rpcheader.pb.cc.o"
+  "CMakeFiles/myrpc.dir/rpcheader.pb.cc.o.d"
+  "CMakeFiles/myrpc.dir/rpcprovider.cc.o"
+  "CMakeFiles/myrpc.dir/rpcprovider.cc.o.d"
+  "CMakeFiles/myrpc.dir/zookeeperutil.cc.o"
+  "CMakeFiles/myrpc.dir/zookeeperutil.cc.o.d"
 )
 
 # Per-language clean rules from dependency scanning.
 foreach(lang CXX)
-  include(CMakeFiles/mprpc.dir/cmake_clean_${lang}.cmake OPTIONAL)
+  include(CMakeFiles/myrpc.dir/cmake_clean_${lang}.cmake OPTIONAL)
 endforeach()

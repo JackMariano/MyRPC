@@ -20,7 +20,7 @@ PROTOBUF_PRAGMA_INIT_SEG
 namespace _pb = ::PROTOBUF_NAMESPACE_ID;
 namespace _pbi = _pb::internal;
 
-namespace mprpc {
+namespace myrpc {
 PROTOBUF_CONSTEXPR RpcHeader::RpcHeader(
     ::_pbi::ConstantInitialized): _impl_{
     /*decltype(_impl_.service_name_)*/{&::_pbi::fixed_address_empty_string, ::_pbi::ConstantInitialized{}}
@@ -36,32 +36,32 @@ struct RpcHeaderDefaultTypeInternal {
   };
 };
 PROTOBUF_ATTRIBUTE_NO_DESTROY PROTOBUF_CONSTINIT PROTOBUF_ATTRIBUTE_INIT_PRIORITY1 RpcHeaderDefaultTypeInternal _RpcHeader_default_instance_;
-}  // namespace mprpc
+}  // namespace myrpc
 static ::_pb::Metadata file_level_metadata_rpcheader_2eproto[1];
 static constexpr ::_pb::EnumDescriptor const** file_level_enum_descriptors_rpcheader_2eproto = nullptr;
 static constexpr ::_pb::ServiceDescriptor const** file_level_service_descriptors_rpcheader_2eproto = nullptr;
 
 const uint32_t TableStruct_rpcheader_2eproto::offsets[] PROTOBUF_SECTION_VARIABLE(protodesc_cold) = {
   ~0u,  // no _has_bits_
-  PROTOBUF_FIELD_OFFSET(::mprpc::RpcHeader, _internal_metadata_),
+  PROTOBUF_FIELD_OFFSET(::myrpc::RpcHeader, _internal_metadata_),
   ~0u,  // no _extensions_
   ~0u,  // no _oneof_case_
   ~0u,  // no _weak_field_map_
   ~0u,  // no _inlined_string_donated_
-  PROTOBUF_FIELD_OFFSET(::mprpc::RpcHeader, _impl_.service_name_),
-  PROTOBUF_FIELD_OFFSET(::mprpc::RpcHeader, _impl_.method_name_),
-  PROTOBUF_FIELD_OFFSET(::mprpc::RpcHeader, _impl_.args_size_),
+  PROTOBUF_FIELD_OFFSET(::myrpc::RpcHeader, _impl_.service_name_),
+  PROTOBUF_FIELD_OFFSET(::myrpc::RpcHeader, _impl_.method_name_),
+  PROTOBUF_FIELD_OFFSET(::myrpc::RpcHeader, _impl_.args_size_),
 };
 static const ::_pbi::MigrationSchema schemas[] PROTOBUF_SECTION_VARIABLE(protodesc_cold) = {
-  { 0, -1, -1, sizeof(::mprpc::RpcHeader)},
+  { 0, -1, -1, sizeof(::myrpc::RpcHeader)},
 };
 
 static const ::_pb::Message* const file_default_instances[] = {
-  &::mprpc::_RpcHeader_default_instance_._instance,
+  &::myrpc::_RpcHeader_default_instance_._instance,
 };
 
 const char descriptor_table_protodef_rpcheader_2eproto[] PROTOBUF_SECTION_VARIABLE(protodesc_cold) =
-  "\n\017rpcheader.proto\022\005mprpc\"I\n\tRpcHeader\022\024\n"
+  "\n\017rpcheader.proto\022\005myrpc\"I\n\tRpcHeader\022\024\n"
   "\014service_name\030\001 \001(\014\022\023\n\013method_name\030\002 \001(\014"
   "\022\021\n\targs_size\030\003 \001(\rb\006proto3"
   ;
@@ -80,7 +80,7 @@ PROTOBUF_ATTRIBUTE_WEAK const ::_pbi::DescriptorTable* descriptor_table_rpcheade
 
 // Force running AddDescriptors() at dynamic initialization time.
 PROTOBUF_ATTRIBUTE_INIT_PRIORITY2 static ::_pbi::AddDescriptorsRunner dynamic_init_dummy_rpcheader_2eproto(&descriptor_table_rpcheader_2eproto);
-namespace mprpc {
+namespace myrpc {
 
 // ===================================================================
 
@@ -92,7 +92,7 @@ RpcHeader::RpcHeader(::PROTOBUF_NAMESPACE_ID::Arena* arena,
                          bool is_message_owned)
   : ::PROTOBUF_NAMESPACE_ID::Message(arena, is_message_owned) {
   SharedCtor(arena, is_message_owned);
-  // @@protoc_insertion_point(arena_constructor:mprpc.RpcHeader)
+  // @@protoc_insertion_point(arena_constructor:myrpc.RpcHeader)
 }
 RpcHeader::RpcHeader(const RpcHeader& from)
   : ::PROTOBUF_NAMESPACE_ID::Message() {
@@ -121,7 +121,7 @@ RpcHeader::RpcHeader(const RpcHeader& from)
       _this->GetArenaForAllocation());
   }
   _this->_impl_.args_size_ = from._impl_.args_size_;
-  // @@protoc_insertion_point(copy_constructor:mprpc.RpcHeader)
+  // @@protoc_insertion_point(copy_constructor:myrpc.RpcHeader)
 }
 
 inline void RpcHeader::SharedCtor(
@@ -145,7 +145,7 @@ inline void RpcHeader::SharedCtor(
 }
 
 RpcHeader::~RpcHeader() {
-  // @@protoc_insertion_point(destructor:mprpc.RpcHeader)
+  // @@protoc_insertion_point(destructor:myrpc.RpcHeader)
   if (auto *arena = _internal_metadata_.DeleteReturnArena<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>()) {
   (void)arena;
     return;
@@ -164,7 +164,7 @@ void RpcHeader::SetCachedSize(int size) const {
 }
 
 void RpcHeader::Clear() {
-// @@protoc_insertion_point(message_clear_start:mprpc.RpcHeader)
+// @@protoc_insertion_point(message_clear_start:myrpc.RpcHeader)
   uint32_t cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
@@ -232,7 +232,7 @@ failure:
 
 uint8_t* RpcHeader::_InternalSerialize(
     uint8_t* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const {
-  // @@protoc_insertion_point(serialize_to_array_start:mprpc.RpcHeader)
+  // @@protoc_insertion_point(serialize_to_array_start:myrpc.RpcHeader)
   uint32_t cached_has_bits = 0;
   (void) cached_has_bits;
 
@@ -258,12 +258,12 @@ uint8_t* RpcHeader::_InternalSerialize(
     target = ::_pbi::WireFormat::InternalSerializeUnknownFieldsToArray(
         _internal_metadata_.unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(::PROTOBUF_NAMESPACE_ID::UnknownFieldSet::default_instance), target, stream);
   }
-  // @@protoc_insertion_point(serialize_to_array_end:mprpc.RpcHeader)
+  // @@protoc_insertion_point(serialize_to_array_end:myrpc.RpcHeader)
   return target;
 }
 
 size_t RpcHeader::ByteSizeLong() const {
-// @@protoc_insertion_point(message_byte_size_start:mprpc.RpcHeader)
+// @@protoc_insertion_point(message_byte_size_start:myrpc.RpcHeader)
   size_t total_size = 0;
 
   uint32_t cached_has_bits = 0;
@@ -302,7 +302,7 @@ const ::PROTOBUF_NAMESPACE_ID::Message::ClassData*RpcHeader::GetClassData() cons
 void RpcHeader::MergeImpl(::PROTOBUF_NAMESPACE_ID::Message& to_msg, const ::PROTOBUF_NAMESPACE_ID::Message& from_msg) {
   auto* const _this = static_cast<RpcHeader*>(&to_msg);
   auto& from = static_cast<const RpcHeader&>(from_msg);
-  // @@protoc_insertion_point(class_specific_merge_from_start:mprpc.RpcHeader)
+  // @@protoc_insertion_point(class_specific_merge_from_start:myrpc.RpcHeader)
   GOOGLE_DCHECK_NE(&from, _this);
   uint32_t cached_has_bits = 0;
   (void) cached_has_bits;
@@ -320,7 +320,7 @@ void RpcHeader::MergeImpl(::PROTOBUF_NAMESPACE_ID::Message& to_msg, const ::PROT
 }
 
 void RpcHeader::CopyFrom(const RpcHeader& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:mprpc.RpcHeader)
+// @@protoc_insertion_point(class_specific_copy_from_start:myrpc.RpcHeader)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
@@ -353,11 +353,11 @@ void RpcHeader::InternalSwap(RpcHeader* other) {
 }
 
 // @@protoc_insertion_point(namespace_scope)
-}  // namespace mprpc
+}  // namespace myrpc
 PROTOBUF_NAMESPACE_OPEN
-template<> PROTOBUF_NOINLINE ::mprpc::RpcHeader*
-Arena::CreateMaybeMessage< ::mprpc::RpcHeader >(Arena* arena) {
-  return Arena::CreateMessageInternal< ::mprpc::RpcHeader >(arena);
+template<> PROTOBUF_NOINLINE ::myrpc::RpcHeader*
+Arena::CreateMaybeMessage< ::myrpc::RpcHeader >(Arena* arena) {
+  return Arena::CreateMessageInternal< ::myrpc::RpcHeader >(arena);
 }
 PROTOBUF_NAMESPACE_CLOSE
 

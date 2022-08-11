@@ -1,4 +1,4 @@
-# Install script for directory: /home/huhao/project/MPRPC-master
+# Install script for directory: /home/huhao/project/myrpc-master
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,8 +44,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/huhao/project/MPRPC-master/build/src/cmake_install.cmake")
-  include("/home/huhao/project/MPRPC-master/build/example/cmake_install.cmake")
+  include("/home/huhao/project/myrpc-master/build/src/cmake_install.cmake")
+  include("/home/huhao/project/myrpc-master/build/example/cmake_install.cmake")
 
 endif()
 
@@ -57,5 +57,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/huhao/project/MPRPC-master/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/huhao/project/myrpc-master/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

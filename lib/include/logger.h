@@ -8,7 +8,7 @@ enum LogLevel
     ERROR,//错误信息
 };
 
-//mprpc框架提供的日志系统
+//myrpc框架提供的日志系统
 class Logger
 {
 public:

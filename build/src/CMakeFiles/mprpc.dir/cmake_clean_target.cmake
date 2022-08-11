@@ -1,3 +1,3 @@
 file(REMOVE_RECURSE
-  "/home/huhao/project/MPRPC-master/lib/libmprpc.a"
+  "/home/huhao/project/myrpc-master/lib/libmyrpc.a"
 )

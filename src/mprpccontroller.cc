@@ -1,34 +1,34 @@
-#include"mprpccontroller.h"
+#include"myrpccontroller.h"
 
 //类的构造函数
-MprpcController::MprpcController()
+myrpcController::myrpcController()
 {
     m_failed=false;
     m_errtext="";
 }
 
-void MprpcController::Reset()
+void myrpcController::Reset()
 {
     m_failed=false;
     m_errtext="";
 }
 
-bool MprpcController::Failed()const
+bool myrpcController::Failed()const
 {
     return m_failed;
 }
 
-std::string MprpcController::ErrorText()const
+std::string myrpcController::ErrorText()const
 {
     return m_errtext;
 }
 
-void MprpcController::SetFailed(const std::string& reason)
+void myrpcController::SetFailed(const std::string& reason)
 {
     m_failed=true;
     m_errtext=reason;
 }
 
-void MprpcController::StartCancel(){}
-bool MprpcController::IsCanceled()const{return false;}
-void MprpcController::NotifyOnCancel(google::protobuf::Closure *callback){}
+void myrpcController::StartCancel(){}
+bool myrpcController::IsCanceled()const{return false;}
+void myrpcController::NotifyOnCancel(google::protobuf::Closure *callback){}

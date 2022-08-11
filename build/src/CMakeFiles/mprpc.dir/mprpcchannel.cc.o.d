@@ -1,7 +1,7 @@
-src/CMakeFiles/mprpc.dir/mprpcchannel.cc.o: \
- /home/huhao/project/MPRPC-master/src/mprpcchannel.cc \
+src/CMakeFiles/myrpc.dir/myrpcchannel.cc.o: \
+ /home/huhao/project/myrpc-master/src/myrpcchannel.cc \
  /usr/include/stdc-predef.h \
- /home/huhao/project/MPRPC-master/src/include/mprpcchannel.h \
+ /home/huhao/project/myrpc-master/src/include/myrpcchannel.h \
  /usr/local/include/google/protobuf/service.h /usr/include/c++/7/string \
  /usr/include/x86_64-linux-gnu/c++/7/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/7/bits/os_defines.h \
@@ -247,13 +247,13 @@ src/CMakeFiles/mprpc.dir/mprpcchannel.cc.o: \
  /usr/local/include/google/protobuf/map.h /usr/include/c++/7/functional \
  /usr/include/c++/7/bits/std_function.h \
  /usr/local/include/google/protobuf/map_type_handler.h \
- /home/huhao/project/MPRPC-master/src/include/rpcheader.pb.h \
+ /home/huhao/project/myrpc-master/src/include/rpcheader.pb.h \
  /usr/local/include/google/protobuf/extension_set.h \
  /usr/include/c++/7/cassert \
- /home/huhao/project/MPRPC-master/src/include/mprpcapplication.h \
- /home/huhao/project/MPRPC-master/src/include/mprpcconfig.h \
- /home/huhao/project/MPRPC-master/src/include/mprpccontroller.h \
- /home/huhao/project/MPRPC-master/src/include/zookeeperutil.h \
+ /home/huhao/project/myrpc-master/src/include/myrpcapplication.h \
+ /home/huhao/project/myrpc-master/src/include/myrpcconfig.h \
+ /home/huhao/project/myrpc-master/src/include/myrpccontroller.h \
+ /home/huhao/project/myrpc-master/src/include/zookeeperutil.h \
  /usr/include/semaphore.h /usr/include/x86_64-linux-gnu/bits/semaphore.h \
  /usr/local/include/zookeeper/zookeeper.h \
  /usr/include/x86_64-linux-gnu/sys/socket.h \

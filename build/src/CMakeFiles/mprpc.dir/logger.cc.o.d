@@ -1,8 +1,8 @@
-src/CMakeFiles/mprpc.dir/logger.cc.o: \
- /home/huhao/project/MPRPC-master/src/logger.cc \
+src/CMakeFiles/myrpc.dir/logger.cc.o: \
+ /home/huhao/project/myrpc-master/src/logger.cc \
  /usr/include/stdc-predef.h \
- /home/huhao/project/MPRPC-master/src/include/logger.h \
- /home/huhao/project/MPRPC-master/src/include/lockqueue.h \
+ /home/huhao/project/myrpc-master/src/include/logger.h \
+ /home/huhao/project/myrpc-master/src/include/lockqueue.h \
  /usr/include/c++/7/queue /usr/include/c++/7/deque \
  /usr/include/c++/7/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/7/bits/c++config.h \

@@ -8,14 +8,14 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/huhao/project/MPRPC-master/src/logger.cc" "src/CMakeFiles/mprpc.dir/logger.cc.o" "gcc" "src/CMakeFiles/mprpc.dir/logger.cc.o.d"
-  "/home/huhao/project/MPRPC-master/src/mprpcapplication.cc" "src/CMakeFiles/mprpc.dir/mprpcapplication.cc.o" "gcc" "src/CMakeFiles/mprpc.dir/mprpcapplication.cc.o.d"
-  "/home/huhao/project/MPRPC-master/src/mprpcchannel.cc" "src/CMakeFiles/mprpc.dir/mprpcchannel.cc.o" "gcc" "src/CMakeFiles/mprpc.dir/mprpcchannel.cc.o.d"
-  "/home/huhao/project/MPRPC-master/src/mprpcconfig.cc" "src/CMakeFiles/mprpc.dir/mprpcconfig.cc.o" "gcc" "src/CMakeFiles/mprpc.dir/mprpcconfig.cc.o.d"
-  "/home/huhao/project/MPRPC-master/src/mprpccontroller.cc" "src/CMakeFiles/mprpc.dir/mprpccontroller.cc.o" "gcc" "src/CMakeFiles/mprpc.dir/mprpccontroller.cc.o.d"
-  "/home/huhao/project/MPRPC-master/src/rpcheader.pb.cc" "src/CMakeFiles/mprpc.dir/rpcheader.pb.cc.o" "gcc" "src/CMakeFiles/mprpc.dir/rpcheader.pb.cc.o.d"
-  "/home/huhao/project/MPRPC-master/src/rpcprovider.cc" "src/CMakeFiles/mprpc.dir/rpcprovider.cc.o" "gcc" "src/CMakeFiles/mprpc.dir/rpcprovider.cc.o.d"
-  "/home/huhao/project/MPRPC-master/src/zookeeperutil.cc" "src/CMakeFiles/mprpc.dir/zookeeperutil.cc.o" "gcc" "src/CMakeFiles/mprpc.dir/zookeeperutil.cc.o.d"
+  "/home/huhao/project/myrpc-master/src/logger.cc" "src/CMakeFiles/myrpc.dir/logger.cc.o" "gcc" "src/CMakeFiles/myrpc.dir/logger.cc.o.d"
+  "/home/huhao/project/myrpc-master/src/myrpcapplication.cc" "src/CMakeFiles/myrpc.dir/myrpcapplication.cc.o" "gcc" "src/CMakeFiles/myrpc.dir/myrpcapplication.cc.o.d"
+  "/home/huhao/project/myrpc-master/src/myrpcchannel.cc" "src/CMakeFiles/myrpc.dir/myrpcchannel.cc.o" "gcc" "src/CMakeFiles/myrpc.dir/myrpcchannel.cc.o.d"
+  "/home/huhao/project/myrpc-master/src/myrpcconfig.cc" "src/CMakeFiles/myrpc.dir/myrpcconfig.cc.o" "gcc" "src/CMakeFiles/myrpc.dir/myrpcconfig.cc.o.d"
+  "/home/huhao/project/myrpc-master/src/myrpccontroller.cc" "src/CMakeFiles/myrpc.dir/myrpccontroller.cc.o" "gcc" "src/CMakeFiles/myrpc.dir/myrpccontroller.cc.o.d"
+  "/home/huhao/project/myrpc-master/src/rpcheader.pb.cc" "src/CMakeFiles/myrpc.dir/rpcheader.pb.cc.o" "gcc" "src/CMakeFiles/myrpc.dir/rpcheader.pb.cc.o.d"
+  "/home/huhao/project/myrpc-master/src/rpcprovider.cc" "src/CMakeFiles/myrpc.dir/rpcprovider.cc.o" "gcc" "src/CMakeFiles/myrpc.dir/rpcprovider.cc.o.d"
+  "/home/huhao/project/myrpc-master/src/zookeeperutil.cc" "src/CMakeFiles/myrpc.dir/zookeeperutil.cc.o" "gcc" "src/CMakeFiles/myrpc.dir/zookeeperutil.cc.o.d"
   )
 
 # Targets to which this target links.

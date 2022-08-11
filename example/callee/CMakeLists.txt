@@ -3,4 +3,4 @@
 set(SRC_LIST friendservice.cc ../friend.pb.cc)
 add_executable(provider ${SRC_LIST})
 #链接库文件
-target_link_libraries(provider mprpc protobuf)
+target_link_libraries(provider myrpc protobuf)

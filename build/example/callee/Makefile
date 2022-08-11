@@ -57,10 +57,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/huhao/project/MPRPC-master
+CMAKE_SOURCE_DIR = /home/huhao/project/myrpc-master
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/huhao/project/MPRPC-master/build
+CMAKE_BINARY_DIR = /home/huhao/project/myrpc-master/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/huhao/project/MPRPC-master/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/huhao/project/MPRPC-master/build/CMakeFiles /home/huhao/project/MPRPC-master/build/example/callee//CMakeFiles/progress.marks
-	cd /home/huhao/project/MPRPC-master/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 example/callee/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/huhao/project/MPRPC-master/build/CMakeFiles 0
+	cd /home/huhao/project/myrpc-master/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/huhao/project/myrpc-master/build/CMakeFiles /home/huhao/project/myrpc-master/build/example/callee//CMakeFiles/progress.marks
+	cd /home/huhao/project/myrpc-master/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 example/callee/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/huhao/project/myrpc-master/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/huhao/project/MPRPC-master/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 example/callee/clean
+	cd /home/huhao/project/myrpc-master/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 example/callee/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/huhao/project/MPRPC-master/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 example/callee/preinstall
+	cd /home/huhao/project/myrpc-master/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 example/callee/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/huhao/project/MPRPC-master/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 example/callee/preinstall
+	cd /home/huhao/project/myrpc-master/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 example/callee/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/huhao/project/MPRPC-master/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/huhao/project/myrpc-master/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 example/callee/CMakeFiles/provider.dir/rule:
-	cd /home/huhao/project/MPRPC-master/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 example/callee/CMakeFiles/provider.dir/rule
+	cd /home/huhao/project/myrpc-master/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 example/callee/CMakeFiles/provider.dir/rule
 .PHONY : example/callee/CMakeFiles/provider.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ provider: example/callee/CMakeFiles/provider.dir/rule
 
 # fast build rule for target.
 provider/fast:
-	cd /home/huhao/project/MPRPC-master/build && $(MAKE) $(MAKESILENT) -f example/callee/CMakeFiles/provider.dir/build.make example/callee/CMakeFiles/provider.dir/build
+	cd /home/huhao/project/myrpc-master/build && $(MAKE) $(MAKESILENT) -f example/callee/CMakeFiles/provider.dir/build.make example/callee/CMakeFiles/provider.dir/build
 .PHONY : provider/fast
 
 __/friend.pb.o: __/friend.pb.cc.o
@@ -135,7 +135,7 @@ __/friend.pb.o: __/friend.pb.cc.o
 
 # target to build an object file
 __/friend.pb.cc.o:
-	cd /home/huhao/project/MPRPC-master/build && $(MAKE) $(MAKESILENT) -f example/callee/CMakeFiles/provider.dir/build.make example/callee/CMakeFiles/provider.dir/__/friend.pb.cc.o
+	cd /home/huhao/project/myrpc-master/build && $(MAKE) $(MAKESILENT) -f example/callee/CMakeFiles/provider.dir/build.make example/callee/CMakeFiles/provider.dir/__/friend.pb.cc.o
 .PHONY : __/friend.pb.cc.o
 
 __/friend.pb.i: __/friend.pb.cc.i
@@ -143,7 +143,7 @@ __/friend.pb.i: __/friend.pb.cc.i
 
 # target to preprocess a source file
 __/friend.pb.cc.i:
-	cd /home/huhao/project/MPRPC-master/build && $(MAKE) $(MAKESILENT) -f example/callee/CMakeFiles/provider.dir/build.make example/callee/CMakeFiles/provider.dir/__/friend.pb.cc.i
+	cd /home/huhao/project/myrpc-master/build && $(MAKE) $(MAKESILENT) -f example/callee/CMakeFiles/provider.dir/build.make example/callee/CMakeFiles/provider.dir/__/friend.pb.cc.i
 .PHONY : __/friend.pb.cc.i
 
 __/friend.pb.s: __/friend.pb.cc.s
@@ -151,7 +151,7 @@ __/friend.pb.s: __/friend.pb.cc.s
 
 # target to generate assembly for a file
 __/friend.pb.cc.s:
-	cd /home/huhao/project/MPRPC-master/build && $(MAKE) $(MAKESILENT) -f example/callee/CMakeFiles/provider.dir/build.make example/callee/CMakeFiles/provider.dir/__/friend.pb.cc.s
+	cd /home/huhao/project/myrpc-master/build && $(MAKE) $(MAKESILENT) -f example/callee/CMakeFiles/provider.dir/build.make example/callee/CMakeFiles/provider.dir/__/friend.pb.cc.s
 .PHONY : __/friend.pb.cc.s
 
 friendservice.o: friendservice.cc.o
@@ -159,7 +159,7 @@ friendservice.o: friendservice.cc.o
 
 # target to build an object file
 friendservice.cc.o:
-	cd /home/huhao/project/MPRPC-master/build && $(MAKE) $(MAKESILENT) -f example/callee/CMakeFiles/provider.dir/build.make example/callee/CMakeFiles/provider.dir/friendservice.cc.o
+	cd /home/huhao/project/myrpc-master/build && $(MAKE) $(MAKESILENT) -f example/callee/CMakeFiles/provider.dir/build.make example/callee/CMakeFiles/provider.dir/friendservice.cc.o
 .PHONY : friendservice.cc.o
 
 friendservice.i: friendservice.cc.i
@@ -167,7 +167,7 @@ friendservice.i: friendservice.cc.i
 
 # target to preprocess a source file
 friendservice.cc.i:
-	cd /home/huhao/project/MPRPC-master/build && $(MAKE) $(MAKESILENT) -f example/callee/CMakeFiles/provider.dir/build.make example/callee/CMakeFiles/provider.dir/friendservice.cc.i
+	cd /home/huhao/project/myrpc-master/build && $(MAKE) $(MAKESILENT) -f example/callee/CMakeFiles/provider.dir/build.make example/callee/CMakeFiles/provider.dir/friendservice.cc.i
 .PHONY : friendservice.cc.i
 
 friendservice.s: friendservice.cc.s
@@ -175,7 +175,7 @@ friendservice.s: friendservice.cc.s
 
 # target to generate assembly for a file
 friendservice.cc.s:
-	cd /home/huhao/project/MPRPC-master/build && $(MAKE) $(MAKESILENT) -f example/callee/CMakeFiles/provider.dir/build.make example/callee/CMakeFiles/provider.dir/friendservice.cc.s
+	cd /home/huhao/project/myrpc-master/build && $(MAKE) $(MAKESILENT) -f example/callee/CMakeFiles/provider.dir/build.make example/callee/CMakeFiles/provider.dir/friendservice.cc.s
 .PHONY : friendservice.cc.s
 
 # Help Target
@@ -204,6 +204,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/huhao/project/MPRPC-master/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/huhao/project/myrpc-master/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

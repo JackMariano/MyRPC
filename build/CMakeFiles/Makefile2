@@ -54,10 +54,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/huhao/project/MPRPC-master
+CMAKE_SOURCE_DIR = /home/huhao/project/myrpc-master
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/huhao/project/MPRPC-master/build
+CMAKE_BINARY_DIR = /home/huhao/project/myrpc-master/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -129,7 +129,7 @@ example/caller/clean: example/caller/CMakeFiles/consumer.dir/clean
 # Directory level rules for directory src
 
 # Recursive "all" directory target.
-src/all: src/CMakeFiles/mprpc.dir/all
+src/all: src/CMakeFiles/myrpc.dir/all
 .PHONY : src/all
 
 # Recursive "preinstall" directory target.
@@ -137,50 +137,50 @@ src/preinstall:
 .PHONY : src/preinstall
 
 # Recursive "clean" directory target.
-src/clean: src/CMakeFiles/mprpc.dir/clean
+src/clean: src/CMakeFiles/myrpc.dir/clean
 .PHONY : src/clean
 
 #=============================================================================
-# Target rules for target src/CMakeFiles/mprpc.dir
+# Target rules for target src/CMakeFiles/myrpc.dir
 
 # All Build rule for target.
-src/CMakeFiles/mprpc.dir/all:
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/depend
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/huhao/project/MPRPC-master/build/CMakeFiles --progress-num=4,5,6,7,8,9,10,11,12 "Built target mprpc"
-.PHONY : src/CMakeFiles/mprpc.dir/all
+src/CMakeFiles/myrpc.dir/all:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/myrpc.dir/build.make src/CMakeFiles/myrpc.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/myrpc.dir/build.make src/CMakeFiles/myrpc.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/huhao/project/myrpc-master/build/CMakeFiles --progress-num=4,5,6,7,8,9,10,11,12 "Built target myrpc"
+.PHONY : src/CMakeFiles/myrpc.dir/all
 
 # Build rule for subdir invocation for target.
-src/CMakeFiles/mprpc.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/huhao/project/MPRPC-master/build/CMakeFiles 9
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/mprpc.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/huhao/project/MPRPC-master/build/CMakeFiles 0
-.PHONY : src/CMakeFiles/mprpc.dir/rule
+src/CMakeFiles/myrpc.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/huhao/project/myrpc-master/build/CMakeFiles 9
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/myrpc.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/huhao/project/myrpc-master/build/CMakeFiles 0
+.PHONY : src/CMakeFiles/myrpc.dir/rule
 
 # Convenience name for target.
-mprpc: src/CMakeFiles/mprpc.dir/rule
-.PHONY : mprpc
+myrpc: src/CMakeFiles/myrpc.dir/rule
+.PHONY : myrpc
 
 # clean rule for target.
-src/CMakeFiles/mprpc.dir/clean:
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/clean
-.PHONY : src/CMakeFiles/mprpc.dir/clean
+src/CMakeFiles/myrpc.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/myrpc.dir/build.make src/CMakeFiles/myrpc.dir/clean
+.PHONY : src/CMakeFiles/myrpc.dir/clean
 
 #=============================================================================
 # Target rules for target example/callee/CMakeFiles/provider.dir
 
 # All Build rule for target.
-example/callee/CMakeFiles/provider.dir/all: src/CMakeFiles/mprpc.dir/all
+example/callee/CMakeFiles/provider.dir/all: src/CMakeFiles/myrpc.dir/all
 	$(MAKE) $(MAKESILENT) -f example/callee/CMakeFiles/provider.dir/build.make example/callee/CMakeFiles/provider.dir/depend
 	$(MAKE) $(MAKESILENT) -f example/callee/CMakeFiles/provider.dir/build.make example/callee/CMakeFiles/provider.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/huhao/project/MPRPC-master/build/CMakeFiles --progress-num=13,14,15 "Built target provider"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/huhao/project/myrpc-master/build/CMakeFiles --progress-num=13,14,15 "Built target provider"
 .PHONY : example/callee/CMakeFiles/provider.dir/all
 
 # Build rule for subdir invocation for target.
 example/callee/CMakeFiles/provider.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/huhao/project/MPRPC-master/build/CMakeFiles 12
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/huhao/project/myrpc-master/build/CMakeFiles 12
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 example/callee/CMakeFiles/provider.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/huhao/project/MPRPC-master/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/huhao/project/myrpc-master/build/CMakeFiles 0
 .PHONY : example/callee/CMakeFiles/provider.dir/rule
 
 # Convenience name for target.
@@ -196,17 +196,17 @@ example/callee/CMakeFiles/provider.dir/clean:
 # Target rules for target example/caller/CMakeFiles/consumer.dir
 
 # All Build rule for target.
-example/caller/CMakeFiles/consumer.dir/all: src/CMakeFiles/mprpc.dir/all
+example/caller/CMakeFiles/consumer.dir/all: src/CMakeFiles/myrpc.dir/all
 	$(MAKE) $(MAKESILENT) -f example/caller/CMakeFiles/consumer.dir/build.make example/caller/CMakeFiles/consumer.dir/depend
 	$(MAKE) $(MAKESILENT) -f example/caller/CMakeFiles/consumer.dir/build.make example/caller/CMakeFiles/consumer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/huhao/project/MPRPC-master/build/CMakeFiles --progress-num=1,2,3 "Built target consumer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/huhao/project/myrpc-master/build/CMakeFiles --progress-num=1,2,3 "Built target consumer"
 .PHONY : example/caller/CMakeFiles/consumer.dir/all
 
 # Build rule for subdir invocation for target.
 example/caller/CMakeFiles/consumer.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/huhao/project/MPRPC-master/build/CMakeFiles 12
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/huhao/project/myrpc-master/build/CMakeFiles 12
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 example/caller/CMakeFiles/consumer.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/huhao/project/MPRPC-master/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/huhao/project/myrpc-master/build/CMakeFiles 0
 .PHONY : example/caller/CMakeFiles/consumer.dir/rule
 
 # Convenience name for target.

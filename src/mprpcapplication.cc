@@ -1,16 +1,16 @@
-#include"mprpcapplication.h"
+#include"myrpcapplication.h"
 #include<iostream>
 #include<unistd.h>
 #include<string>
 
 //静态成员变量在类外初始化
-MprpcConfig MprpcApplication::m_config;
+myrpcConfig myrpcApplication::m_config;
 //实现成全局的方法
 void ShowArgHelp()
 {
     std::cout<<"format:command -i <configfile>"<<std::endl;
 }
-void MprpcApplication::Init(int argc,char **argv)//Mprpc初始化
+void myrpcApplication::Init(int argc,char **argv)//myrpc初始化
 {
     if(argc<2)//参数不足
     {
@@ -48,14 +48,14 @@ void MprpcApplication::Init(int argc,char **argv)//Mprpc初始化
     // std::cout<<"zookeeperport:"<<m_config.Load("zookeeperport")<<std::endl;
 }
 //单例模式获取实例
-MprpcApplication& MprpcApplication::GetInstance()
+myrpcApplication& myrpcApplication::GetInstance()
 {
-    static MprpcApplication app;
+    static myrpcApplication app;
     return app;
 }
 
 //获取配置项
-MprpcConfig& MprpcApplication::GetConfig()
+myrpcConfig& myrpcApplication::GetConfig()
 {
     return m_config;
 }

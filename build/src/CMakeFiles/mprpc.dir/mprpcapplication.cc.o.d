@@ -1,8 +1,8 @@
-src/CMakeFiles/mprpc.dir/mprpcapplication.cc.o: \
- /home/huhao/project/MPRPC-master/src/mprpcapplication.cc \
+src/CMakeFiles/myrpc.dir/myrpcapplication.cc.o: \
+ /home/huhao/project/myrpc-master/src/myrpcapplication.cc \
  /usr/include/stdc-predef.h \
- /home/huhao/project/MPRPC-master/src/include/mprpcapplication.h \
- /home/huhao/project/MPRPC-master/src/include/mprpcconfig.h \
+ /home/huhao/project/myrpc-master/src/include/myrpcapplication.h \
+ /home/huhao/project/myrpc-master/src/include/myrpcconfig.h \
  /usr/include/c++/7/unordered_map /usr/include/c++/7/utility \
  /usr/include/x86_64-linux-gnu/c++/7/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/7/bits/os_defines.h \
@@ -132,7 +132,7 @@ src/CMakeFiles/mprpc.dir/mprpcapplication.cc.o: \
  /usr/include/c++/7/bits/hashtable.h \
  /usr/include/c++/7/bits/hashtable_policy.h \
  /usr/include/c++/7/bits/unordered_map.h \
- /home/huhao/project/MPRPC-master/src/include/mprpccontroller.h \
+ /home/huhao/project/myrpc-master/src/include/myrpccontroller.h \
  /usr/local/include/google/protobuf/service.h \
  /usr/local/include/google/protobuf/stubs/callback.h \
  /usr/local/include/google/protobuf/stubs/macros.h \
@@ -198,7 +198,7 @@ src/CMakeFiles/mprpc.dir/mprpcapplication.cc.o: \
  /usr/local/include/google/protobuf/stubs/hash.h \
  /usr/include/c++/7/cstring /usr/include/c++/7/unordered_set \
  /usr/include/c++/7/bits/unordered_set.h \
- /home/huhao/project/MPRPC-master/src/include/mprpcchannel.h \
+ /home/huhao/project/myrpc-master/src/include/myrpcchannel.h \
  /usr/local/include/google/protobuf/descriptor.h \
  /usr/include/c++/7/atomic \
  /usr/local/include/google/protobuf/stubs/logging.h \

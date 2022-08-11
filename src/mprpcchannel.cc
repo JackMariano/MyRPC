@@ -1,7 +1,7 @@
-#include"mprpcchannel.h"
+#include"myrpcchannel.h"
 #include"rpcheader.pb.h"
-#include"mprpcapplication.h"
-#include"mprpccontroller.h"
+#include"myrpcapplication.h"
+#include"myrpccontroller.h"
 #include"zookeeperutil.h"
 #include<string>
 #include<errno.h>
@@ -12,7 +12,7 @@
 #include<sys/socket.h>
 #include<arpa/inet.h>
 
-void MprpcChannel::CallMethod(const google::protobuf::MethodDescriptor* method,
+void myrpcChannel::CallMethod(const google::protobuf::MethodDescriptor* method,
                           google::protobuf::RpcController* controller, 
                           const google::protobuf::Message* request,
                           google::protobuf::Message* response, 
@@ -37,7 +37,7 @@ void MprpcChannel::CallMethod(const google::protobuf::MethodDescriptor* method,
     }
     
     //定义rpc的请求header
-    mprpc::RpcHeader rpcHeader;
+    myrpc::RpcHeader rpcHeader;
     rpcHeader.set_service_name(service_name);
     rpcHeader.set_method_name(method_name);
     rpcHeader.set_args_size(args_size);
@@ -83,8 +83,8 @@ void MprpcChannel::CallMethod(const google::protobuf::MethodDescriptor* method,
     }
 
     //读取配置文件rpcserver的信息
-    // std::string ip=MprpcApplication::GetInstance().GetConfig().Load("rpcserverip");
-    // uint16_t port=atoi(MprpcApplication::GetInstance().GetConfig().Load("rpcserverport").c_str());
+    // std::string ip=myrpcApplication::GetInstance().GetConfig().Load("rpcserverip");
+    // uint16_t port=atoi(myrpcApplication::GetInstance().GetConfig().Load("rpcserverport").c_str());
 
     /*
     rpc调用方向调用service_name服务，需要查询zk上该服务所在的host信息

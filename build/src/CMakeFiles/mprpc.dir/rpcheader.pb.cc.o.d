@@ -1,7 +1,7 @@
-src/CMakeFiles/mprpc.dir/rpcheader.pb.cc.o: \
- /home/huhao/project/MPRPC-master/src/rpcheader.pb.cc \
+src/CMakeFiles/myrpc.dir/rpcheader.pb.cc.o: \
+ /home/huhao/project/myrpc-master/src/rpcheader.pb.cc \
  /usr/include/stdc-predef.h \
- /home/huhao/project/MPRPC-master/src/include/rpcheader.pb.h \
+ /home/huhao/project/myrpc-master/src/include/rpcheader.pb.h \
  /usr/include/c++/7/limits \
  /usr/include/x86_64-linux-gnu/c++/7/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/7/bits/os_defines.h \

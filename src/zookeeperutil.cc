@@ -1,5 +1,5 @@
 #include "zookeeperutil.h"
-#include "mprpcapplication.h"
+#include "myrpcapplication.h"
 #include <semaphore.h>
 #include <iostream>
 
@@ -31,8 +31,8 @@ ZkClient::~ZkClient()
 void ZkClient::Start()
 {
     //加载zk的IP和端口号，默认为2181
-    std::string host=MprpcApplication::GetInstance().GetConfig().Load("zookeeperip");
-    std::string port=MprpcApplication::GetInstance().GetConfig().Load("zookeeperport");
+    std::string host=myrpcApplication::GetInstance().GetConfig().Load("zookeeperip");
+    std::string port=myrpcApplication::GetInstance().GetConfig().Load("zookeeperport");
     //注意url格式
     std::string connstr=host+":"+port;
 

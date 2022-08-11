@@ -1,7 +1,7 @@
-src/CMakeFiles/mprpc.dir/mprpccontroller.cc.o: \
- /home/huhao/project/MPRPC-master/src/mprpccontroller.cc \
+src/CMakeFiles/myrpc.dir/myrpccontroller.cc.o: \
+ /home/huhao/project/myrpc-master/src/myrpccontroller.cc \
  /usr/include/stdc-predef.h \
- /home/huhao/project/MPRPC-master/src/include/mprpccontroller.h \
+ /home/huhao/project/myrpc-master/src/include/myrpccontroller.h \
  /usr/local/include/google/protobuf/service.h /usr/include/c++/7/string \
  /usr/include/x86_64-linux-gnu/c++/7/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/7/bits/os_defines.h \
