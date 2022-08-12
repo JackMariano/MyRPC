@@ -17,7 +17,8 @@ MyRPC
 > * 使用**consumer -i test.conf**以及**provider -i test.conf**来加载配置文件，配置文件中主要有server以及zookeeper server的ip地址与端口号
 > * 使用protobuf来先注册自己想要提供的Server以及Message，服务器通过继承重写的方式来替换本地方法
 > * 客户端通过stub来调用服务器端的提供的方法
-> * zookeeper起到了服务注册以及服务发现功能
+> * zookeeper起到了服务注册以及服务发现功能.
+
 项目流程
 ===============
 > * Rpcserver向zookeeper中进行节点的注册，也就是说把服务名和方法名当做键，值就是本地的ip和port。
