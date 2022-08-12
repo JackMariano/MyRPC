@@ -1,5 +1,5 @@
 example/callee/CMakeFiles/provider.dir/friendservice.cc.o: \
- /home/huhao/project/myrpc-master/example/callee/friendservice.cc \
+ /home/huhao/project/MPRPC-master/example/callee/friendservice.cc \
  /usr/include/stdc-predef.h /usr/include/c++/7/iostream \
  /usr/include/x86_64-linux-gnu/c++/7/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/7/bits/os_defines.h \
@@ -136,7 +136,7 @@ example/callee/CMakeFiles/provider.dir/friendservice.cc.o: \
  /usr/include/c++/7/bits/basic_ios.tcc \
  /usr/include/c++/7/bits/ostream.tcc /usr/include/c++/7/istream \
  /usr/include/c++/7/bits/istream.tcc \
- /home/huhao/project/myrpc-master/src/include/rpcprovider.h \
+ /home/huhao/project/MPRPC-master/src/include/rpcprovider.h \
  /usr/local/include/google/protobuf/service.h \
  /usr/local/include/google/protobuf/stubs/callback.h \
  /usr/local/include/google/protobuf/stubs/macros.h \
@@ -282,16 +282,16 @@ example/callee/CMakeFiles/provider.dir/friendservice.cc.o: \
  /usr/include/c++/7/bits/std_mutex.h \
  /usr/local/include/google/protobuf/stubs/once.h \
  /usr/local/include/google/protobuf/port.h \
- /home/huhao/project/myrpc-master/src/include/logger.h \
- /home/huhao/project/myrpc-master/src/include/lockqueue.h \
+ /home/huhao/project/MPRPC-master/src/include/logger.h \
+ /home/huhao/project/MPRPC-master/src/include/lockqueue.h \
  /usr/include/c++/7/queue /usr/include/c++/7/deque \
  /usr/include/c++/7/bits/stl_deque.h /usr/include/c++/7/bits/deque.tcc \
  /usr/include/c++/7/bits/stl_queue.h /usr/include/c++/7/thread \
  /usr/include/c++/7/condition_variable \
- /home/huhao/project/myrpc-master/src/include/myrpcapplication.h \
- /home/huhao/project/myrpc-master/src/include/myrpcconfig.h \
- /home/huhao/project/myrpc-master/src/include/myrpccontroller.h \
- /home/huhao/project/myrpc-master/src/include/myrpcchannel.h \
+ /home/huhao/project/MPRPC-master/src/include/myrpcapplication.h \
+ /home/huhao/project/MPRPC-master/src/include/myrpcconfig.h \
+ /home/huhao/project/MPRPC-master/src/include/myrpccontroller.h \
+ /home/huhao/project/MPRPC-master/src/include/myrpcchannel.h \
  /usr/local/include/google/protobuf/message.h \
  /usr/local/include/google/protobuf/stubs/casts.h \
  /usr/local/include/google/protobuf/arena.h \
@@ -331,6 +331,6 @@ example/callee/CMakeFiles/provider.dir/friendservice.cc.o: \
  /usr/local/include/google/protobuf/has_bits.h \
  /usr/local/include/google/protobuf/map.h \
  /usr/local/include/google/protobuf/map_type_handler.h \
- /home/huhao/project/myrpc-master/example/friend.pb.h \
+ /home/huhao/project/MPRPC-master/example/friend.pb.h \
  /usr/local/include/google/protobuf/extension_set.h \
  /usr/include/c++/7/cassert

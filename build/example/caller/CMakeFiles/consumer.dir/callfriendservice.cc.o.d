@@ -1,5 +1,5 @@
 example/caller/CMakeFiles/consumer.dir/callfriendservice.cc.o: \
- /home/huhao/project/myrpc-master/example/caller/callfriendservice.cc \
+ /home/huhao/project/MPRPC-master/example/caller/callfriendservice.cc \
  /usr/include/stdc-predef.h /usr/include/c++/7/iostream \
  /usr/include/x86_64-linux-gnu/c++/7/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/7/bits/os_defines.h \
@@ -136,8 +136,8 @@ example/caller/CMakeFiles/consumer.dir/callfriendservice.cc.o: \
  /usr/include/c++/7/bits/basic_ios.tcc \
  /usr/include/c++/7/bits/ostream.tcc /usr/include/c++/7/istream \
  /usr/include/c++/7/bits/istream.tcc \
- /home/huhao/project/myrpc-master/src/include/myrpcapplication.h \
- /home/huhao/project/myrpc-master/src/include/myrpcconfig.h \
+ /home/huhao/project/MPRPC-master/src/include/myrpcapplication.h \
+ /home/huhao/project/MPRPC-master/src/include/myrpcconfig.h \
  /usr/include/c++/7/unordered_map /usr/include/c++/7/utility \
  /usr/include/c++/7/bits/stl_relops.h /usr/include/c++/7/tuple \
  /usr/include/c++/7/array /usr/include/c++/7/bits/uses_allocator.h \
@@ -145,7 +145,7 @@ example/caller/CMakeFiles/consumer.dir/callfriendservice.cc.o: \
  /usr/include/c++/7/bits/hashtable.h \
  /usr/include/c++/7/bits/hashtable_policy.h \
  /usr/include/c++/7/bits/unordered_map.h \
- /home/huhao/project/myrpc-master/src/include/myrpccontroller.h \
+ /home/huhao/project/MPRPC-master/src/include/myrpccontroller.h \
  /usr/local/include/google/protobuf/service.h \
  /usr/local/include/google/protobuf/stubs/callback.h \
  /usr/local/include/google/protobuf/stubs/macros.h \
@@ -194,7 +194,7 @@ example/caller/CMakeFiles/consumer.dir/callfriendservice.cc.o: \
  /usr/local/include/google/protobuf/stubs/hash.h \
  /usr/include/c++/7/cstring /usr/include/c++/7/unordered_set \
  /usr/include/c++/7/bits/unordered_set.h \
- /home/huhao/project/myrpc-master/src/include/myrpcchannel.h \
+ /home/huhao/project/MPRPC-master/src/include/myrpcchannel.h \
  /usr/local/include/google/protobuf/descriptor.h \
  /usr/include/c++/7/atomic \
  /usr/local/include/google/protobuf/stubs/logging.h \
@@ -247,6 +247,6 @@ example/caller/CMakeFiles/consumer.dir/callfriendservice.cc.o: \
  /usr/local/include/google/protobuf/map.h /usr/include/c++/7/functional \
  /usr/include/c++/7/bits/std_function.h \
  /usr/local/include/google/protobuf/map_type_handler.h \
- /home/huhao/project/myrpc-master/example/friend.pb.h \
+ /home/huhao/project/MPRPC-master/example/friend.pb.h \
  /usr/local/include/google/protobuf/extension_set.h \
  /usr/include/c++/7/cassert

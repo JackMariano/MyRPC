@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/huhao/project/myrpc-master/bin/provider"
-  "/home/huhao/project/myrpc-master/bin/provider.pdb"
+  "/home/huhao/project/MPRPC-master/bin/provider"
+  "/home/huhao/project/MPRPC-master/bin/provider.pdb"
   "CMakeFiles/provider.dir/__/friend.pb.cc.o"
   "CMakeFiles/provider.dir/__/friend.pb.cc.o.d"
   "CMakeFiles/provider.dir/friendservice.cc.o"

@@ -1,4 +1,4 @@
-# Install script for directory: /home/huhao/project/myrpc-master/example/caller
+# Install script for directory: /home/huhao/project/MPRPC-master/example/caller
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -1,7 +1,7 @@
 example/callee/CMakeFiles/provider.dir/__/friend.pb.cc.o: \
- /home/huhao/project/myrpc-master/example/friend.pb.cc \
+ /home/huhao/project/MPRPC-master/example/friend.pb.cc \
  /usr/include/stdc-predef.h \
- /home/huhao/project/myrpc-master/example/friend.pb.h \
+ /home/huhao/project/MPRPC-master/example/friend.pb.h \
  /usr/include/c++/7/limits \
  /usr/include/x86_64-linux-gnu/c++/7/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/7/bits/os_defines.h \

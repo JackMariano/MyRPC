@@ -53,10 +53,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/huhao/project/myrpc-master
+CMAKE_SOURCE_DIR = /home/huhao/project/MPRPC-master
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/huhao/project/myrpc-master/build
+CMAKE_BINARY_DIR = /home/huhao/project/MPRPC-master/build
 
 # Include any dependencies generated for this target.
 include example/caller/CMakeFiles/consumer.dir/depend.make
@@ -70,32 +70,32 @@ include example/caller/CMakeFiles/consumer.dir/progress.make
 include example/caller/CMakeFiles/consumer.dir/flags.make
 
 example/caller/CMakeFiles/consumer.dir/callfriendservice.cc.o: example/caller/CMakeFiles/consumer.dir/flags.make
-example/caller/CMakeFiles/consumer.dir/callfriendservice.cc.o: /home/huhao/project/myrpc-master/example/caller/callfriendservice.cc
+example/caller/CMakeFiles/consumer.dir/callfriendservice.cc.o: /home/huhao/project/MPRPC-master/example/caller/callfriendservice.cc
 example/caller/CMakeFiles/consumer.dir/callfriendservice.cc.o: example/caller/CMakeFiles/consumer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/huhao/project/myrpc-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object example/caller/CMakeFiles/consumer.dir/callfriendservice.cc.o"
-	cd /home/huhao/project/myrpc-master/build/example/caller && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT example/caller/CMakeFiles/consumer.dir/callfriendservice.cc.o -MF CMakeFiles/consumer.dir/callfriendservice.cc.o.d -o CMakeFiles/consumer.dir/callfriendservice.cc.o -c /home/huhao/project/myrpc-master/example/caller/callfriendservice.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/huhao/project/MPRPC-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object example/caller/CMakeFiles/consumer.dir/callfriendservice.cc.o"
+	cd /home/huhao/project/MPRPC-master/build/example/caller && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT example/caller/CMakeFiles/consumer.dir/callfriendservice.cc.o -MF CMakeFiles/consumer.dir/callfriendservice.cc.o.d -o CMakeFiles/consumer.dir/callfriendservice.cc.o -c /home/huhao/project/MPRPC-master/example/caller/callfriendservice.cc
 
 example/caller/CMakeFiles/consumer.dir/callfriendservice.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/consumer.dir/callfriendservice.cc.i"
-	cd /home/huhao/project/myrpc-master/build/example/caller && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/huhao/project/myrpc-master/example/caller/callfriendservice.cc > CMakeFiles/consumer.dir/callfriendservice.cc.i
+	cd /home/huhao/project/MPRPC-master/build/example/caller && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/huhao/project/MPRPC-master/example/caller/callfriendservice.cc > CMakeFiles/consumer.dir/callfriendservice.cc.i
 
 example/caller/CMakeFiles/consumer.dir/callfriendservice.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/consumer.dir/callfriendservice.cc.s"
-	cd /home/huhao/project/myrpc-master/build/example/caller && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/huhao/project/myrpc-master/example/caller/callfriendservice.cc -o CMakeFiles/consumer.dir/callfriendservice.cc.s
+	cd /home/huhao/project/MPRPC-master/build/example/caller && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/huhao/project/MPRPC-master/example/caller/callfriendservice.cc -o CMakeFiles/consumer.dir/callfriendservice.cc.s
 
 example/caller/CMakeFiles/consumer.dir/__/friend.pb.cc.o: example/caller/CMakeFiles/consumer.dir/flags.make
-example/caller/CMakeFiles/consumer.dir/__/friend.pb.cc.o: /home/huhao/project/myrpc-master/example/friend.pb.cc
+example/caller/CMakeFiles/consumer.dir/__/friend.pb.cc.o: /home/huhao/project/MPRPC-master/example/friend.pb.cc
 example/caller/CMakeFiles/consumer.dir/__/friend.pb.cc.o: example/caller/CMakeFiles/consumer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/huhao/project/myrpc-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object example/caller/CMakeFiles/consumer.dir/__/friend.pb.cc.o"
-	cd /home/huhao/project/myrpc-master/build/example/caller && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT example/caller/CMakeFiles/consumer.dir/__/friend.pb.cc.o -MF CMakeFiles/consumer.dir/__/friend.pb.cc.o.d -o CMakeFiles/consumer.dir/__/friend.pb.cc.o -c /home/huhao/project/myrpc-master/example/friend.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/huhao/project/MPRPC-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object example/caller/CMakeFiles/consumer.dir/__/friend.pb.cc.o"
+	cd /home/huhao/project/MPRPC-master/build/example/caller && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT example/caller/CMakeFiles/consumer.dir/__/friend.pb.cc.o -MF CMakeFiles/consumer.dir/__/friend.pb.cc.o.d -o CMakeFiles/consumer.dir/__/friend.pb.cc.o -c /home/huhao/project/MPRPC-master/example/friend.pb.cc
 
 example/caller/CMakeFiles/consumer.dir/__/friend.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/consumer.dir/__/friend.pb.cc.i"
-	cd /home/huhao/project/myrpc-master/build/example/caller && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/huhao/project/myrpc-master/example/friend.pb.cc > CMakeFiles/consumer.dir/__/friend.pb.cc.i
+	cd /home/huhao/project/MPRPC-master/build/example/caller && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/huhao/project/MPRPC-master/example/friend.pb.cc > CMakeFiles/consumer.dir/__/friend.pb.cc.i
 
 example/caller/CMakeFiles/consumer.dir/__/friend.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/consumer.dir/__/friend.pb.cc.s"
-	cd /home/huhao/project/myrpc-master/build/example/caller && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/huhao/project/myrpc-master/example/friend.pb.cc -o CMakeFiles/consumer.dir/__/friend.pb.cc.s
+	cd /home/huhao/project/MPRPC-master/build/example/caller && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/huhao/project/MPRPC-master/example/friend.pb.cc -o CMakeFiles/consumer.dir/__/friend.pb.cc.s
 
 # Object files for target consumer
 consumer_OBJECTS = \
@@ -105,23 +105,23 @@ consumer_OBJECTS = \
 # External object files for target consumer
 consumer_EXTERNAL_OBJECTS =
 
-/home/huhao/project/myrpc-master/bin/consumer: example/caller/CMakeFiles/consumer.dir/callfriendservice.cc.o
-/home/huhao/project/myrpc-master/bin/consumer: example/caller/CMakeFiles/consumer.dir/__/friend.pb.cc.o
-/home/huhao/project/myrpc-master/bin/consumer: example/caller/CMakeFiles/consumer.dir/build.make
-/home/huhao/project/myrpc-master/bin/consumer: /home/huhao/project/myrpc-master/lib/libmyrpc.a
-/home/huhao/project/myrpc-master/bin/consumer: example/caller/CMakeFiles/consumer.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/huhao/project/myrpc-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable /home/huhao/project/myrpc-master/bin/consumer"
-	cd /home/huhao/project/myrpc-master/build/example/caller && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/consumer.dir/link.txt --verbose=$(VERBOSE)
+/home/huhao/project/MPRPC-master/bin/consumer: example/caller/CMakeFiles/consumer.dir/callfriendservice.cc.o
+/home/huhao/project/MPRPC-master/bin/consumer: example/caller/CMakeFiles/consumer.dir/__/friend.pb.cc.o
+/home/huhao/project/MPRPC-master/bin/consumer: example/caller/CMakeFiles/consumer.dir/build.make
+/home/huhao/project/MPRPC-master/bin/consumer: /home/huhao/project/MPRPC-master/lib/libmyrpc.a
+/home/huhao/project/MPRPC-master/bin/consumer: example/caller/CMakeFiles/consumer.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/huhao/project/MPRPC-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable /home/huhao/project/MPRPC-master/bin/consumer"
+	cd /home/huhao/project/MPRPC-master/build/example/caller && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/consumer.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-example/caller/CMakeFiles/consumer.dir/build: /home/huhao/project/myrpc-master/bin/consumer
+example/caller/CMakeFiles/consumer.dir/build: /home/huhao/project/MPRPC-master/bin/consumer
 .PHONY : example/caller/CMakeFiles/consumer.dir/build
 
 example/caller/CMakeFiles/consumer.dir/clean:
-	cd /home/huhao/project/myrpc-master/build/example/caller && $(CMAKE_COMMAND) -P CMakeFiles/consumer.dir/cmake_clean.cmake
+	cd /home/huhao/project/MPRPC-master/build/example/caller && $(CMAKE_COMMAND) -P CMakeFiles/consumer.dir/cmake_clean.cmake
 .PHONY : example/caller/CMakeFiles/consumer.dir/clean
 
 example/caller/CMakeFiles/consumer.dir/depend:
-	cd /home/huhao/project/myrpc-master/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/huhao/project/myrpc-master /home/huhao/project/myrpc-master/example/caller /home/huhao/project/myrpc-master/build /home/huhao/project/myrpc-master/build/example/caller /home/huhao/project/myrpc-master/build/example/caller/CMakeFiles/consumer.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/huhao/project/MPRPC-master/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/huhao/project/MPRPC-master /home/huhao/project/MPRPC-master/example/caller /home/huhao/project/MPRPC-master/build /home/huhao/project/MPRPC-master/build/example/caller /home/huhao/project/MPRPC-master/build/example/caller/CMakeFiles/consumer.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : example/caller/CMakeFiles/consumer.dir/depend
 

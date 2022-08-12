@@ -57,10 +57,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/huhao/project/myrpc-master
+CMAKE_SOURCE_DIR = /home/huhao/project/MPRPC-master
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/huhao/project/myrpc-master/build
+CMAKE_BINARY_DIR = /home/huhao/project/MPRPC-master/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/huhao/project/myrpc-master/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/huhao/project/myrpc-master/build/CMakeFiles /home/huhao/project/myrpc-master/build/src//CMakeFiles/progress.marks
-	cd /home/huhao/project/myrpc-master/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/huhao/project/myrpc-master/build/CMakeFiles 0
+	cd /home/huhao/project/MPRPC-master/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/huhao/project/MPRPC-master/build/CMakeFiles /home/huhao/project/MPRPC-master/build/src//CMakeFiles/progress.marks
+	cd /home/huhao/project/MPRPC-master/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/huhao/project/MPRPC-master/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/huhao/project/myrpc-master/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/clean
+	cd /home/huhao/project/MPRPC-master/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/huhao/project/myrpc-master/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
+	cd /home/huhao/project/MPRPC-master/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/huhao/project/myrpc-master/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
+	cd /home/huhao/project/MPRPC-master/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/huhao/project/myrpc-master/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/huhao/project/MPRPC-master/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/CMakeFiles/myrpc.dir/rule:
-	cd /home/huhao/project/myrpc-master/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/myrpc.dir/rule
+	cd /home/huhao/project/MPRPC-master/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/myrpc.dir/rule
 .PHONY : src/CMakeFiles/myrpc.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ myrpc: src/CMakeFiles/myrpc.dir/rule
 
 # fast build rule for target.
 myrpc/fast:
-	cd /home/huhao/project/myrpc-master/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/myrpc.dir/build.make src/CMakeFiles/myrpc.dir/build
+	cd /home/huhao/project/MPRPC-master/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/myrpc.dir/build.make src/CMakeFiles/myrpc.dir/build
 .PHONY : myrpc/fast
 
 logger.o: logger.cc.o
@@ -135,7 +135,7 @@ logger.o: logger.cc.o
 
 # target to build an object file
 logger.cc.o:
-	cd /home/huhao/project/myrpc-master/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/myrpc.dir/build.make src/CMakeFiles/myrpc.dir/logger.cc.o
+	cd /home/huhao/project/MPRPC-master/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/myrpc.dir/build.make src/CMakeFiles/myrpc.dir/logger.cc.o
 .PHONY : logger.cc.o
 
 logger.i: logger.cc.i
@@ -143,7 +143,7 @@ logger.i: logger.cc.i
 
 # target to preprocess a source file
 logger.cc.i:
-	cd /home/huhao/project/myrpc-master/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/myrpc.dir/build.make src/CMakeFiles/myrpc.dir/logger.cc.i
+	cd /home/huhao/project/MPRPC-master/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/myrpc.dir/build.make src/CMakeFiles/myrpc.dir/logger.cc.i
 .PHONY : logger.cc.i
 
 logger.s: logger.cc.s
@@ -151,7 +151,7 @@ logger.s: logger.cc.s
 
 # target to generate assembly for a file
 logger.cc.s:
-	cd /home/huhao/project/myrpc-master/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/myrpc.dir/build.make src/CMakeFiles/myrpc.dir/logger.cc.s
+	cd /home/huhao/project/MPRPC-master/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/myrpc.dir/build.make src/CMakeFiles/myrpc.dir/logger.cc.s
 .PHONY : logger.cc.s
 
 myrpcapplication.o: myrpcapplication.cc.o
@@ -159,7 +159,7 @@ myrpcapplication.o: myrpcapplication.cc.o
 
 # target to build an object file
 myrpcapplication.cc.o:
-	cd /home/huhao/project/myrpc-master/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/myrpc.dir/build.make src/CMakeFiles/myrpc.dir/myrpcapplication.cc.o
+	cd /home/huhao/project/MPRPC-master/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/myrpc.dir/build.make src/CMakeFiles/myrpc.dir/myrpcapplication.cc.o
 .PHONY : myrpcapplication.cc.o
 
 myrpcapplication.i: myrpcapplication.cc.i
@@ -167,7 +167,7 @@ myrpcapplication.i: myrpcapplication.cc.i
 
 # target to preprocess a source file
 myrpcapplication.cc.i:
-	cd /home/huhao/project/myrpc-master/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/myrpc.dir/build.make src/CMakeFiles/myrpc.dir/myrpcapplication.cc.i
+	cd /home/huhao/project/MPRPC-master/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/myrpc.dir/build.make src/CMakeFiles/myrpc.dir/myrpcapplication.cc.i
 .PHONY : myrpcapplication.cc.i
 
 myrpcapplication.s: myrpcapplication.cc.s
@@ -175,7 +175,7 @@ myrpcapplication.s: myrpcapplication.cc.s
 
 # target to generate assembly for a file
 myrpcapplication.cc.s:
-	cd /home/huhao/project/myrpc-master/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/myrpc.dir/build.make src/CMakeFiles/myrpc.dir/myrpcapplication.cc.s
+	cd /home/huhao/project/MPRPC-master/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/myrpc.dir/build.make src/CMakeFiles/myrpc.dir/myrpcapplication.cc.s
 .PHONY : myrpcapplication.cc.s
 
 myrpcchannel.o: myrpcchannel.cc.o
@@ -183,7 +183,7 @@ myrpcchannel.o: myrpcchannel.cc.o
 
 # target to build an object file
 myrpcchannel.cc.o:
-	cd /home/huhao/project/myrpc-master/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/myrpc.dir/build.make src/CMakeFiles/myrpc.dir/myrpcchannel.cc.o
+	cd /home/huhao/project/MPRPC-master/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/myrpc.dir/build.make src/CMakeFiles/myrpc.dir/myrpcchannel.cc.o
 .PHONY : myrpcchannel.cc.o
 
 myrpcchannel.i: myrpcchannel.cc.i
@@ -191,7 +191,7 @@ myrpcchannel.i: myrpcchannel.cc.i
 
 # target to preprocess a source file
 myrpcchannel.cc.i:
-	cd /home/huhao/project/myrpc-master/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/myrpc.dir/build.make src/CMakeFiles/myrpc.dir/myrpcchannel.cc.i
+	cd /home/huhao/project/MPRPC-master/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/myrpc.dir/build.make src/CMakeFiles/myrpc.dir/myrpcchannel.cc.i
 .PHONY : myrpcchannel.cc.i
 
 myrpcchannel.s: myrpcchannel.cc.s
@@ -199,7 +199,7 @@ myrpcchannel.s: myrpcchannel.cc.s
 
 # target to generate assembly for a file
 myrpcchannel.cc.s:
-	cd /home/huhao/project/myrpc-master/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/myrpc.dir/build.make src/CMakeFiles/myrpc.dir/myrpcchannel.cc.s
+	cd /home/huhao/project/MPRPC-master/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/myrpc.dir/build.make src/CMakeFiles/myrpc.dir/myrpcchannel.cc.s
 .PHONY : myrpcchannel.cc.s
 
 myrpcconfig.o: myrpcconfig.cc.o
@@ -207,7 +207,7 @@ myrpcconfig.o: myrpcconfig.cc.o
 
 # target to build an object file
 myrpcconfig.cc.o:
-	cd /home/huhao/project/myrpc-master/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/myrpc.dir/build.make src/CMakeFiles/myrpc.dir/myrpcconfig.cc.o
+	cd /home/huhao/project/MPRPC-master/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/myrpc.dir/build.make src/CMakeFiles/myrpc.dir/myrpcconfig.cc.o
 .PHONY : myrpcconfig.cc.o
 
 myrpcconfig.i: myrpcconfig.cc.i
@@ -215,7 +215,7 @@ myrpcconfig.i: myrpcconfig.cc.i
 
 # target to preprocess a source file
 myrpcconfig.cc.i:
-	cd /home/huhao/project/myrpc-master/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/myrpc.dir/build.make src/CMakeFiles/myrpc.dir/myrpcconfig.cc.i
+	cd /home/huhao/project/MPRPC-master/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/myrpc.dir/build.make src/CMakeFiles/myrpc.dir/myrpcconfig.cc.i
 .PHONY : myrpcconfig.cc.i
 
 myrpcconfig.s: myrpcconfig.cc.s
@@ -223,7 +223,7 @@ myrpcconfig.s: myrpcconfig.cc.s
 
 # target to generate assembly for a file
 myrpcconfig.cc.s:
-	cd /home/huhao/project/myrpc-master/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/myrpc.dir/build.make src/CMakeFiles/myrpc.dir/myrpcconfig.cc.s
+	cd /home/huhao/project/MPRPC-master/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/myrpc.dir/build.make src/CMakeFiles/myrpc.dir/myrpcconfig.cc.s
 .PHONY : myrpcconfig.cc.s
 
 myrpccontroller.o: myrpccontroller.cc.o
@@ -231,7 +231,7 @@ myrpccontroller.o: myrpccontroller.cc.o
 
 # target to build an object file
 myrpccontroller.cc.o:
-	cd /home/huhao/project/myrpc-master/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/myrpc.dir/build.make src/CMakeFiles/myrpc.dir/myrpccontroller.cc.o
+	cd /home/huhao/project/MPRPC-master/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/myrpc.dir/build.make src/CMakeFiles/myrpc.dir/myrpccontroller.cc.o
 .PHONY : myrpccontroller.cc.o
 
 myrpccontroller.i: myrpccontroller.cc.i
@@ -239,7 +239,7 @@ myrpccontroller.i: myrpccontroller.cc.i
 
 # target to preprocess a source file
 myrpccontroller.cc.i:
-	cd /home/huhao/project/myrpc-master/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/myrpc.dir/build.make src/CMakeFiles/myrpc.dir/myrpccontroller.cc.i
+	cd /home/huhao/project/MPRPC-master/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/myrpc.dir/build.make src/CMakeFiles/myrpc.dir/myrpccontroller.cc.i
 .PHONY : myrpccontroller.cc.i
 
 myrpccontroller.s: myrpccontroller.cc.s
@@ -247,7 +247,7 @@ myrpccontroller.s: myrpccontroller.cc.s
 
 # target to generate assembly for a file
 myrpccontroller.cc.s:
-	cd /home/huhao/project/myrpc-master/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/myrpc.dir/build.make src/CMakeFiles/myrpc.dir/myrpccontroller.cc.s
+	cd /home/huhao/project/MPRPC-master/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/myrpc.dir/build.make src/CMakeFiles/myrpc.dir/myrpccontroller.cc.s
 .PHONY : myrpccontroller.cc.s
 
 rpcheader.pb.o: rpcheader.pb.cc.o
@@ -255,7 +255,7 @@ rpcheader.pb.o: rpcheader.pb.cc.o
 
 # target to build an object file
 rpcheader.pb.cc.o:
-	cd /home/huhao/project/myrpc-master/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/myrpc.dir/build.make src/CMakeFiles/myrpc.dir/rpcheader.pb.cc.o
+	cd /home/huhao/project/MPRPC-master/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/myrpc.dir/build.make src/CMakeFiles/myrpc.dir/rpcheader.pb.cc.o
 .PHONY : rpcheader.pb.cc.o
 
 rpcheader.pb.i: rpcheader.pb.cc.i
@@ -263,7 +263,7 @@ rpcheader.pb.i: rpcheader.pb.cc.i
 
 # target to preprocess a source file
 rpcheader.pb.cc.i:
-	cd /home/huhao/project/myrpc-master/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/myrpc.dir/build.make src/CMakeFiles/myrpc.dir/rpcheader.pb.cc.i
+	cd /home/huhao/project/MPRPC-master/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/myrpc.dir/build.make src/CMakeFiles/myrpc.dir/rpcheader.pb.cc.i
 .PHONY : rpcheader.pb.cc.i
 
 rpcheader.pb.s: rpcheader.pb.cc.s
@@ -271,7 +271,7 @@ rpcheader.pb.s: rpcheader.pb.cc.s
 
 # target to generate assembly for a file
 rpcheader.pb.cc.s:
-	cd /home/huhao/project/myrpc-master/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/myrpc.dir/build.make src/CMakeFiles/myrpc.dir/rpcheader.pb.cc.s
+	cd /home/huhao/project/MPRPC-master/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/myrpc.dir/build.make src/CMakeFiles/myrpc.dir/rpcheader.pb.cc.s
 .PHONY : rpcheader.pb.cc.s
 
 rpcprovider.o: rpcprovider.cc.o
@@ -279,7 +279,7 @@ rpcprovider.o: rpcprovider.cc.o
 
 # target to build an object file
 rpcprovider.cc.o:
-	cd /home/huhao/project/myrpc-master/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/myrpc.dir/build.make src/CMakeFiles/myrpc.dir/rpcprovider.cc.o
+	cd /home/huhao/project/MPRPC-master/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/myrpc.dir/build.make src/CMakeFiles/myrpc.dir/rpcprovider.cc.o
 .PHONY : rpcprovider.cc.o
 
 rpcprovider.i: rpcprovider.cc.i
@@ -287,7 +287,7 @@ rpcprovider.i: rpcprovider.cc.i
 
 # target to preprocess a source file
 rpcprovider.cc.i:
-	cd /home/huhao/project/myrpc-master/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/myrpc.dir/build.make src/CMakeFiles/myrpc.dir/rpcprovider.cc.i
+	cd /home/huhao/project/MPRPC-master/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/myrpc.dir/build.make src/CMakeFiles/myrpc.dir/rpcprovider.cc.i
 .PHONY : rpcprovider.cc.i
 
 rpcprovider.s: rpcprovider.cc.s
@@ -295,7 +295,7 @@ rpcprovider.s: rpcprovider.cc.s
 
 # target to generate assembly for a file
 rpcprovider.cc.s:
-	cd /home/huhao/project/myrpc-master/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/myrpc.dir/build.make src/CMakeFiles/myrpc.dir/rpcprovider.cc.s
+	cd /home/huhao/project/MPRPC-master/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/myrpc.dir/build.make src/CMakeFiles/myrpc.dir/rpcprovider.cc.s
 .PHONY : rpcprovider.cc.s
 
 zookeeperutil.o: zookeeperutil.cc.o
@@ -303,7 +303,7 @@ zookeeperutil.o: zookeeperutil.cc.o
 
 # target to build an object file
 zookeeperutil.cc.o:
-	cd /home/huhao/project/myrpc-master/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/myrpc.dir/build.make src/CMakeFiles/myrpc.dir/zookeeperutil.cc.o
+	cd /home/huhao/project/MPRPC-master/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/myrpc.dir/build.make src/CMakeFiles/myrpc.dir/zookeeperutil.cc.o
 .PHONY : zookeeperutil.cc.o
 
 zookeeperutil.i: zookeeperutil.cc.i
@@ -311,7 +311,7 @@ zookeeperutil.i: zookeeperutil.cc.i
 
 # target to preprocess a source file
 zookeeperutil.cc.i:
-	cd /home/huhao/project/myrpc-master/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/myrpc.dir/build.make src/CMakeFiles/myrpc.dir/zookeeperutil.cc.i
+	cd /home/huhao/project/MPRPC-master/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/myrpc.dir/build.make src/CMakeFiles/myrpc.dir/zookeeperutil.cc.i
 .PHONY : zookeeperutil.cc.i
 
 zookeeperutil.s: zookeeperutil.cc.s
@@ -319,7 +319,7 @@ zookeeperutil.s: zookeeperutil.cc.s
 
 # target to generate assembly for a file
 zookeeperutil.cc.s:
-	cd /home/huhao/project/myrpc-master/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/myrpc.dir/build.make src/CMakeFiles/myrpc.dir/zookeeperutil.cc.s
+	cd /home/huhao/project/MPRPC-master/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/myrpc.dir/build.make src/CMakeFiles/myrpc.dir/zookeeperutil.cc.s
 .PHONY : zookeeperutil.cc.s
 
 # Help Target
@@ -366,6 +366,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/huhao/project/myrpc-master/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/huhao/project/MPRPC-master/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 
