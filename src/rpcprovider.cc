@@ -113,7 +113,7 @@ void RpcProvider::OnMessge(const muduo::net::TcpConnectionPtr &conn,
     //获取到数据，即网络上接受的远程rpc调用请求的字符流， Login和args
     //将接收到的字节流转码放到字符串里面
     std::string recv_buf=buffer->retrieveAllAsString();
-
+    std::cout<< "序列化数据" << recv_buf << std::endl;
     //std::cout<<"已获取数据"<<std::endl;
     //读取header_size，此时的整数若按照字符串格式发送，读取时会出现问题，所以需要直接按二进制发送
     //从字符流中读取前四个字节的内容，4个字节是32位，不会超出int的范围，使用string的insert和copy方法可以完成
