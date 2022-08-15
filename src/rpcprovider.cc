@@ -113,6 +113,8 @@ void RpcProvider::OnMessge(const muduo::net::TcpConnectionPtr &conn,
     //获取到数据，即网络上接受的远程rpc调用请求的字符流， Login和args
     //将接收到的字节流转码放到字符串里面
     std::string recv_buf=buffer->retrieveAllAsString();
+    //字符串的文本格式和二进制格式影响不大，但是数字就可以小很多，这里的输出就是直接把二进制数据以文本输出会产生奇怪的结果
+    //这里的#号就是二进制00100011对应的ascii码，用文本字符编码就是一个字节表示#号。后面的参数也是乱码
     std::cout<< "序列化数据" << recv_buf << std::endl;
     //std::cout<<"已获取数据"<<std::endl;
     //读取header_size，此时的整数若按照字符串格式发送，读取时会出现问题，所以需要直接按二进制发送

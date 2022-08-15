@@ -1,0 +1,8 @@
+22:10:54 => [error] first log message!
+22:10:54 => [error] /home/huhao/project/MPRPC-master/example/callee/friendservice.cc:main:45
+22:10:54 => [info] service_name:FriendServiceRpc
+22:10:54 => [info] method_name:GetFriendList
+22:11:23 => [error] first log message!
+22:11:23 => [error] /home/huhao/project/MPRPC-master/example/callee/friendservice.cc:main:45
+22:11:23 => [info] service_name:FriendServiceRpc
+22:11:23 => [info] method_name:GetFriendList

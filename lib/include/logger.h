@@ -36,7 +36,7 @@ private:
         char c[1024]={0};\
         snprintf(c,1024,logmsgformat,##__VA_ARGS__);\
         logger.Log(c);\
-    }while(0)
+    } while(0)
 
 #define LOG_ERR(logmsgformat,...)\
     do\
@@ -46,5 +46,5 @@ private:
         char c[1024]={0};\
         snprintf(c,1024,logmsgformat,##__VA_ARGS__);\
         logger.Log(c);\
-    }while(0)
+    } while(0)
     

@@ -1,4 +1,5 @@
 #pragma once
+
 #include"google/protobuf/service.h"
 //muduo库的头文件
 #include<muduo/net/TcpServer.h>
@@ -29,11 +30,11 @@ private:
     struct ServiceInfo
     {
         google::protobuf::Service *m_service;//保存服务对象
-        std::unordered_map<std::string,const google::protobuf::MethodDescriptor*> m_methodMap;//保存服务方法
+        std::unordered_map<std::string,const google::protobuf::MethodDescriptor*> m_methodMap;//保存服务对象的方法与name的映射
 
     };
 
-    //存储注册成功的服务对象和其服务方法的所有信息
+    //存储注册成功的服务对象和其服务方法的所有信息，使用哈系表来存储服务对象与它的name的映射。
     std::unordered_map<std::string,ServiceInfo> m_serviceMap;
     //新的socket链接回调
     void OnConnection(const muduo::net::TcpConnectionPtr&);

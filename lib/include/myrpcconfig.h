@@ -14,7 +14,7 @@ public:
     //查询配置项信息
     std::string Load(std::string const &key);
 private:
-
+    //哈系表存储键值对配置文件。
     std::unordered_map<std::string,std::string> m_configMap;
     //去掉字符串前后的空格
     void Trim(std::string &src_buf);
