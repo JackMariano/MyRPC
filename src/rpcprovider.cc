@@ -10,7 +10,7 @@ service_name=>对service进行描述
 */
 //这里是框架提供给外部使用的，可以发布rpc方法的函数接口
 //此处应该使用Service类，而不是指定某个方法，基类的指针可以指向子类对象啊
-//这里是注册protobuf的服务对象
+//这里是注册protobuf的服务对象到哈希表里面
 void RpcProvider::NotifyService(google::protobuf::Service *service)
 {
     ServiceInfo service_info;//服务表

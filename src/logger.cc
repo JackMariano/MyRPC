@@ -2,7 +2,7 @@
 #include<time.h>
 #include<iostream>
 
-//获取日志单例
+//获取日志单例，这里是用单例模式写的日志
 Logger& Logger::GetInstance()
 {
     static Logger logger;
@@ -11,9 +11,9 @@ Logger& Logger::GetInstance()
 
 Logger::Logger()
 {
-    //启动专门的写日志线程,使用lambda表达式
+    //启动专门的写日志线程,使用lambda表达式，这里使用的C++11的多线程函数
     std::thread writeLogTask([&](){
-        for(;;)
+        while(true)
         {
             //获取当天的日期，然后去取日志信息，写入相应的日志文件当中
             time_t now=time(nullptr);
