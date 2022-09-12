@@ -3,7 +3,7 @@
 #include <semaphore.h>
 #include <iostream>
 
-//全局的watcher观察器  zkserver给zkclient的通知
+//全局的watcher观察器  zkserver给zkclient的通知,这个watcher机制很重要
 void global_watcher(zhandle_t *zh,int type,int state,const char *path,void *watcherCtx)
 {
     if(type==ZOO_SESSION_EVENT)//回调的消息类型是和会话相关的消息类型
